@@ -7,27 +7,6 @@ public class SettingsScripts : MonoBehaviour
 {
 
     public Text snakeSizeText;
-    //public GameObject snakePreFab;
-
-    //GameObject Player;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        //SceneManager.LoadScene("SnakeMain");
-        //System.Threading.Thread.Sleep(100);
-        //Debug.Log(Player.GetComponent<SnakeMovement>().initialSize);
-        //System.Threading.Thread.Sleep(100);
-        //SceneManager.LoadScene("SettingsScene");
-
-        //Player = GameObject.Find("SnakePreFab(Clone)");
-        //settingsInitialSize =Player.GetComponent<SnakeMovement>().initialSize;
-        //Debug.Log(settingsInitialSize);
-
-            
-           
-    }
-
     // Update is called once per frame
     void Update()
     {
@@ -64,6 +43,5 @@ public class SettingsScripts : MonoBehaviour
         {
             Time.fixedDeltaTime = 0.08f;
         }
-        //Debug.Log(difficulty);
     }
 }
